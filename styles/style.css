@@ -74,3 +74,4 @@ nav a:hover {
     transition: ease-in-out 0.4s;
   }
   li{font-size: 18px;}
+  .profile{display: flex; margin: 20px;}
