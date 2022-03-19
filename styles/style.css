@@ -70,8 +70,25 @@ nav a:hover {
   transition: ease-in-out 0.4s;
 }
 .logos img:hover {
-    transform: scale(1.2);
-    transition: ease-in-out 0.4s;
-  }
-  li{font-size: 18px;}
-  .profile{display: flex; margin: 20px;}
+  transform: scale(1.2);
+  transition: ease-in-out 0.4s;
+}
+li {
+  font-size: 18px;
+}
+.profile {
+  display: flex;
+  margin: 20px;
+}
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 50px;
+  width: 100%;
+  float: left;
+}
+.pelement {
+  width: 30%;
+  background-color: aquamarine;
+}
